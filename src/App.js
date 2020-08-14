@@ -1,5 +1,7 @@
 import React from 'react';
-import './App.css';
+import Navigation from './components/Navigation';
+import ResumeComp from './components/ResumeComp';
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -7,6 +9,9 @@ function App() {
 			<header className="App-header">
 				JONG HEE CHOI
 			</header>
+			<Navigation />
+			<ResumeComp />
+			<Footer />
 		</div>
 	);
 }
