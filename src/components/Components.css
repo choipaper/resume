@@ -13,3 +13,9 @@
     display: inline;
     padding-left: 10px;
 }
+
+.Footer {
+    border-top: 6px solid #002b80;
+    position: fixed;
+    bottom: 0;
+}
