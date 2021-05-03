@@ -22,8 +22,11 @@ class MainBody extends React.Component {
 }
 const detailsTxt = {
     greeting: "Hello! I'm Jonghee Choi ",
-    interestTech: 'Unity, Hardware, Graphics, Website, Application for daily use',
-    interest: 'culture, history, cooking, watching skies, pixar, ghibli, simpsons',
+    interestTech: 'I am from Korea living in Canada.',
+    interest:
+        'I like making daily usage applications and game.And I support ‘No hatred but love’ world.:) ',
+    detail:
+        'Thank you very much for visiting my website. This website will be updated. ',
 };
 
 export default MainBody;
@@ -32,9 +35,9 @@ const ytResources = [
         title: 'Top down game demo',
         tool: 'Unity',
         detail: [
-            '- Design whole game',
-            '- using raycast to detect collision',
-            '- UI:inventory system/ 2DLighting',
+            '- Designed whole game.',
+            '- used raycast to detect collisions.',
+            '- UI:inventory system/ 2DLighting.',
         ],
         embed: (
             <iframe
@@ -51,7 +54,7 @@ const ytResources = [
     {
         title: '2d platformer game demo',
         tool: 'Unity',
-        detail: ['- use raycasting method to detect collisions'],
+        detail: ['- used raycasting method to detect collisions.'],
         embed: (
             <iframe
                 className="yt-container"
@@ -66,7 +69,7 @@ const ytResources = [
     {
         title: 'SDL2 game',
         tool: 'C++,SDL2',
-        detail: ['- draw simple squares display simple ‘breakout’ scene'],
+        detail: ['- drew simple squares display simple ‘breakout’ scene.'],
         embed: (
             <iframe
                 className="yt-container"
@@ -82,8 +85,8 @@ const ytResources = [
         title: '2d platformer controller without ridgidbody',
         tool: 'Unity',
         detail: [
-            '- use raycasting method to detect collisions.',
-            '- jump, climb, auto platform movement',
+            '- used raycasting method to detect collisions.',
+            '- implemented jump, climb, auto platform movement functions.',
         ],
         embed: (
             <iframe
@@ -101,7 +104,7 @@ const ytResources = [
         tool: 'Unity',
         detail: [
             <a href="https://choipaper.itch.io/a2b">- itch.io_downloadLink</a>,
-            '- 48hrs game jam',
+            '- 48hrs game jam.',
             '- a2b(a to b), it is a simple movement game but with a theme;’Out of Order’. I made it so the movement of the character is controlled by the user but once you choose to take a box then it is out of control.',
         ],
         embed: (
@@ -121,8 +124,8 @@ const ytResources = [
         title: 'Camera Shaking',
         tool: 'Unity',
         detail: [
-            '- understand and control Unity basic UI',
-            '- code camera shaking movement with on click event',
+            '- understand and control Unity basic UI.',
+            '- code camera shaking movement with on click event.',
         ],
         embed: (
             <iframe
