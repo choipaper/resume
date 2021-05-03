@@ -1,19 +1,25 @@
 import React from 'react';
-import Navigation from './components/Navigation';
-import ResumeComp from './components/ResumeComp';
-import Footer from './components/Footer';
+import Header from './Components/Header';
+import Navigation from './Components/Navigation';
+import MainBody from './Components/MainBody';
+import SideBody from './Components/SideBody';
+import Footer from './Components/Footer';
+import './App.css';
 
-function App() {
-	return (
-		<div className="App">
-			<header className="App-header">
-				JONG HEE CHOI
-			</header>
-			<Navigation />
-			<ResumeComp />
-			<Footer />
-		</div>
-	);
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <Header />
+                <Navigation />
+                <div className="body-container">
+                    <MainBody />
+                    <SideBody />
+                </div>
+                <Footer />
+            </div>
+        );
+    }
 }
 
 export default App;
